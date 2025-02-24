@@ -22,9 +22,9 @@ public class NotificationController : MonoBehaviour
             // You can specify a custom identifier which can be used to manage the notification later.
             // If you don't provide one, a unique string will be generated automatically.
             Identifier = "_notification_01",
-            Title = "Title",
+            Title = "Furry Bounce",
             Body = "Scheduled at: " + DateTime.Now.ToShortDateString() + " triggered in 5 seconds",
-            Subtitle = "This is a subtitle, something, something important...",
+            Subtitle = "Furry wants to bounce!",
             ShowInForeground = true,
             ForegroundPresentationOption = (PresentationOption.Alert | PresentationOption.Sound),
             CategoryIdentifier = "category_a",
